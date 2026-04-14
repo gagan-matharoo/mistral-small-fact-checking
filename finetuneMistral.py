@@ -74,7 +74,7 @@ print("Done Loading the Tokenizer : ", datetime.datetime.today())
 # print("Model Complied : ", datetime.datetime.today())
 
 trainingArguments = SFTConfig ( \
-                        output_dir = "fineTuningOutputOurPrompt", \
+                        output_dir = "fineTuningOutput", \
                         learning_rate = 2e-4, \
                         weight_decay = 0.01, \
                         num_train_epochs = 2, \
